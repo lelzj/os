@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # https://git.herrbischoff.com/awesome-macos-command-line/about/
 # https://macos-defaults.com/#%F0%9F%92%BB-list-of-commands

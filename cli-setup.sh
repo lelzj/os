@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 zsh_path(){
 	echo ~/.oh-my-zsh

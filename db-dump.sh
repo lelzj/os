@@ -1,5 +1,5 @@
-#! /bin/bash
-#
+#!/bin/sh
+
 # Script to dump database
 # 
 # EXAMPLE USAGE:
@@ -7,7 +7,7 @@
 #
 # If run on remote host, ater a dump is performed, the user could scp the file to a local drive
 # This script prevents locking while it is running so that other queries will continue to run
-#
+
 usage()
 {
 cat << EOF

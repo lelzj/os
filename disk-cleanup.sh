@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 rm -rf ~/Library/Caches/*
 rm -rf /Library/Caches/*
