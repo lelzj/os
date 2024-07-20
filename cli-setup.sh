@@ -42,7 +42,7 @@ zsh_config(){
 		echo "echo ' |    |  \_  __ _/ __ .\__  \  /     \|    |   /  _ \|  |  \/ __ | '" >>$ZSHRC
 		echo 'echo "${IPurple} |    .   |  | .\  ___/ / __ \|  Y Y  |    |__(  <_> |  |  / /_/ | "' >>$ZSHRC
 		echo "echo '/_______  |__|   \___  (____  |__|_|  |_______ \____/|____/\____ | '" >>$ZSHRC
-		echo "echo '        \/           \/     \/      \/        \/                \/ '" >>$ZSHRC
+		echo 'echo "        \/           \/     \/      \/        \/                \/ ${Color_Off}"' >>$ZSHRC
 		source $ZSHRC > /dev/null 2>&1 &
 		echo 0
 	else
