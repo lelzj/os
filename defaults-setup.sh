@@ -128,5 +128,8 @@ defaults write com.apple.finder "ShowStatusBar" -bool true && killall Finder
 defaults write com.apple.screensaver "askForPassword" -int 1
 defaults write com.apple.screensaver "askForPasswordDelay" -int 0
 
+# turn off idiotic doc bounce
+defaults write com.apple.doc no-bouncing -bool true
+
 # Generate system performance report
 sudo sysdiagnose -f ~/Desktop/
